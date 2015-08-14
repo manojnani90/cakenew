@@ -1,0 +1,43 @@
+.checkbox, .radio {
+	width: 25px;
+	height: 25px;
+	display: block;
+	clear: left;
+	float: left;
+}
+.checkbox {
+	background:url(../images/checkbox.png) no-repeat left top;
+}
+.radio {
+	background: url(../images/radio.gif) no-repeat;
+}
+.select{
+	  background: url("../images/select.png") no-repeat scroll right 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+    color: #273f5c;
+    height: 26px;
+	font-size:13px;
+    overflow: hidden;
+    padding: 0 24px 0 8px;
+    position: absolute;
+    width: 128px;
+	line-height:27px;
+}
+
+.select1{
+	  background: url("../images/select.png") no-repeat scroll right 0 transparent;
+    border-radius: 5px 5px 5px 5px;
+    color: #273f5c;
+    height: 26px;
+	font-size:13px;
+    overflow: hidden;
+    padding: 0 24px 0 8px;
+    position: absolute;
+    width: 128px;
+	line-height:27px;
+}
+
+.input.select{
+    position: inherit;
+}
+
